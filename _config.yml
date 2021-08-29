@@ -1,1 +1,43 @@
+# site settings
+title: Beautiful Mind Maps
+subtitle: by Nehal
+email: nehalsinghal16@gmail.com
+description: _"Beauty reflects Understanding"_
+
+Knowledge Process Management using Mind Maps 
+
+
+<span style='color:#0000ff;'>**Unified view**</span> **of** <span style='color:#0000ff;'>**Aesthetics**</span> **&** <span style='color:#0000ff;'>**Logic**</span> **and of** <span style='color:#ff0000;'>**Art**</span> **&** <span style='color:#1f7c00;'>**Science**</span>
+
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/andrewbanchich
+  GitLab:
+  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/andrewbanchich
+  Facebook:
+  Slack:
+
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
 
